@@ -9,7 +9,7 @@ include("../src/imageReader.jl")
 
 #imagefile="../data/model/artemis/IMG_6098.jpeg"
 #imagefile="../data/model/random/tmp.png"
-imagefile = "../data/model/moi/ground_canyon.png"
+imagefile = "../data/model/moi/authors.png"
 colormap = "hot" #colormap can be RGB vector or predefined colormap
 
 floatMatrix=read2DimageModel(imagefile,colormap;min=1000,max=3300, showRecoveredImage=true) 

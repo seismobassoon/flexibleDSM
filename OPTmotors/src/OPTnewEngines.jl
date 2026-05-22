@@ -1093,6 +1093,7 @@ end
 
 function constructingNumericalDiscretisedEquations(semiSymbolicsOperators,coordinates,models,fields,vars,modelPoints,utilities,maskedRegionInSpace;absorbingBoundaries=nothing,initialCondition=0.0)
 
+    #region todo list
     #todo list
     # 
     # this function is tooooooo complicated! I think I can simplify very much this!
@@ -1108,7 +1109,7 @@ function constructingNumericalDiscretisedEquations(semiSymbolicsOperators,coordi
     #
     # have to write:
     #  function illposedTaylorCoefficientsInversion(coordinates,multiOrdersIndices,multiPointsIndices,midPoint,Δ)
-
+    #endregion
     
     #region general introduction
     #
